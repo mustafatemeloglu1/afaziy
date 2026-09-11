@@ -10,29 +10,38 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v6
+      - name: Kodu indir
+        uses: actions/checkout@v5
 
-      - uses: actions/setup-node@v5
+      - name: Node.js kur
+        uses: actions/setup-node@v5
         with:
           node-version: 22
-          cache: npm
 
-      - run: npm install
-
-      - run: npx cap add android
-
-      - run: npx cap sync android
-
-      - uses: actions/setup-java@v5
+      - name: Java kur
+        uses: actions/setup-java@v5
         with:
           distribution: temurin
           java-version: '21'
 
-      - name: Build debug APK
+      - name: Android klasörünü temizle
+        run: rm -rf android
+
+      - name: NPM paketlerini kur
+        run: npm install
+
+      - name: Android projesini oluştur
+        run: npx cap add android
+
+      - name: Capacitor senkronizasyonu
+        run: npx cap sync android
+
+      - name: Debug APK oluştur
         working-directory: android
         run: ./gradlew assembleDebug
 
-      - uses: actions/upload-artifact@v4
+      - name: APK'yı yükle
+        uses: actions/upload-artifact@v4
         with:
           name: afazi-terapi-debug-apk
           path: android/app/build/outputs/apk/debug/app-debug.apk
