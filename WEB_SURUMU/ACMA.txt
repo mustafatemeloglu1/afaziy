@@ -1,0 +1,10 @@
+WEB SÜRÜMÜ
+
+www/index.html dosyası uygulamanın web girişidir.
+
+Yerel çalıştırma:
+- Node.js kuruluysa ana klasörde: npm install
+- ardından: npm run web
+- tarayıcıdan terminalde gösterilen localhost adresini aç.
+
+GitHub Pages ile yayınlama önerilir; böylece uygulama internete açık olur ve content.json güncellenebilir.

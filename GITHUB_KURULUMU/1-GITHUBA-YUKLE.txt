@@ -1,0 +1,9 @@
+AFazi Terapi - GitHub'a yükleme
+
+1. GitHub.com'a gir ve yeni bir repository oluştur.
+2. Bu klasörün içindeki TÜM dosyaları repository'ye yükle.
+3. Özellikle .github klasörünü silme. GitHub Actions için gereklidir.
+4. Settings > Pages bölümünden Source olarak GitHub Actions seç.
+5. main branch'e gönderimden sonra Web sürümü Actions üzerinden yayınlanır.
+
+Not: Windows'ta .github klasörü görünmüyorsa Dosya Gezgini > Görünüm > Göster > Gizli öğeler seçeneğini aç.

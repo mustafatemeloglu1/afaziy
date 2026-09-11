@@ -1,0 +1,10 @@
+AFazi Terapi - Android APK
+
+Bu paket APK üretim workflow'unu içerir.
+
+1. Projeyi GitHub repository'ye yükle.
+2. Actions sekmesine gir.
+3. Android APK workflow'unu çalıştır veya main branch'e push yap.
+4. Workflow tamamlanınca Artifacts bölümünden debug APK'yı indir.
+
+Android klasörü şu anda boş bırakılmıştır; GitHub Actions, Capacitor ile Android projesini otomatik oluşturur.

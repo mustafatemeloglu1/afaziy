@@ -1,0 +1,55 @@
+{
+  "version": "2026.09.11",
+  "modules": {
+    "word": [
+      {"id":"w1","answer":"elma","category":"meyve","features":["yuvarlaktır","yenir","kırmızı veya yeşil olabilir","manavda bulunur"],"imageTerm":"apple","cue":"Bu bir meyvedir."},
+      {"id":"w2","answer":"bardak","category":"mutfak eşyası","features":["içmek için kullanılır","cam olabilir","masada bulunur","sıvı konur"],"imageTerm":"drinking glass","cue":"İçine su koyarız."},
+      {"id":"w3","answer":"makas","category":"araç","features":["kesmek için kullanılır","iki sapı vardır","kırtasiyede bulunur","metal olabilir"],"imageTerm":"scissors","cue":"Kâğıdı bununla keseriz."},
+      {"id":"w4","answer":"anahtar","category":"ev eşyası","features":["kapıyı açar","metal olabilir","cebe konur","kilitle birlikte kullanılır"],"imageTerm":"key","cue":"Kapıyı açmak için kullanılır."},
+      {"id":"w5","answer":"şemsiye","category":"eşya","features":["yağmurda kullanılır","açılıp kapanır","elde taşınır","ıslanmaktan korur"],"imageTerm":"umbrella","cue":"Yağmur yağınca açarız."}
+    ],
+    "category": [
+      {"id":"c1","title":"Meyveler","targetCount":5,"items":["elma","armut","muz","portakal","çilek","kiraz","üzüm"]},
+      {"id":"c2","title":"Mutfak eşyaları","targetCount":5,"items":["tabak","bardak","kaşık","çatal","tencere","bıçak","tepsi"]},
+      {"id":"c3","title":"Giysiler","targetCount":5,"items":["gömlek","pantolon","ceket","çorap","şapka","etek","kazak"]},
+      {"id":"c4","title":"Evde bulunanlar","targetCount":5,"items":["masa","sandalye","koltuk","televizyon","halı","perde","dolap"]}
+    ],
+    "picture": [
+      {"id":"p1","answer":"elma","imageTerm":"apple","cue1":"Meyve","cue2":"Kırmızı veya yeşil olabilir","cue3":"Manavda satılır"},
+      {"id":"p2","answer":"bisiklet","imageTerm":"bicycle","cue1":"Bir taşıt","cue2":"İki tekerleği vardır","cue3":"Pedalla sürülür"},
+      {"id":"p3","answer":"telefon","imageTerm":"smartphone","cue1":"Elektronik eşya","cue2":"Arama yapılır","cue3":"Cepte taşınır"},
+      {"id":"p4","answer":"şemsiye","imageTerm":"umbrella","cue1":"Bir eşya","cue2":"Yağmurla ilgilidir","cue3":"Açılır ve kapanır"}
+    ],
+    "action": [
+      {"id":"a1","answer":"yemek yemek","sentence":"Çocuk yemek yiyor.","who":"çocuk","verb":"yemek yiyor","object":"yemek"},
+      {"id":"a2","answer":"kesmek","sentence":"Adam ekmeği kesiyor.","who":"adam","verb":"kesiyor","object":"ekmeği"},
+      {"id":"a3","answer":"okumak","sentence":"Kadın kitap okuyor.","who":"kadın","verb":"okuyor","object":"kitap"},
+      {"id":"a4","answer":"içmek","sentence":"Adam su içiyor.","who":"adam","verb":"içiyor","object":"su"},
+      {"id":"a5","answer":"yıkamak","sentence":"Kadın ellerini yıkıyor.","who":"kadın","verb":"yıkıyor","object":"ellerini"}
+    ],
+    "sentence": [
+      {"id":"s1","sentence":"Adam ekmek kesiyor.","who":"Adam","verb":"kesiyor","object":"ekmek"},
+      {"id":"s2","sentence":"Çocuk topu atıyor.","who":"Çocuk","verb":"atıyor","object":"topu"},
+      {"id":"s3","sentence":"Kadın kitap okuyor.","who":"Kadın","verb":"okuyor","object":"kitap"},
+      {"id":"s4","sentence":"Baba çocuğa su veriyor.","who":"Baba","verb":"veriyor","object":"çocuğa su"}
+    ],
+    "auditory": [
+      {"id":"au1","command":"Pencereyi göster.","level":1},
+      {"id":"au2","command":"Kalemi al.","level":1},
+      {"id":"au3","command":"Gözünü kapa, ağzını aç.","level":2},
+      {"id":"au4","command":"Kalemi al ve masanın üzerine koy.","level":2},
+      {"id":"au5","command":"Kitabı aç, ikinci sayfayı göster ve kitabı kapat.","level":3}
+    ],
+    "reading": [
+      {"id":"r1","text":"Ali markete gitti. Ekmek aldı ve eve döndü.","question":"Ali nereye gitti?","answer":"Markete"},
+      {"id":"r2","text":"Ayşe sabah kahvaltı yaptı. Sonra işe gitti.","question":"Ayşe önce ne yaptı?","answer":"Kahvaltı yaptı"},
+      {"id":"r3","text":"Çocuk bisiklete bindi. Parkta arkadaşını gördü.","question":"Çocuk parkta kimi gördü?","answer":"Arkadaşını"},
+      {"id":"r4","text":"Mehmet yağmur başlayınca şemsiyesini açtı.","question":"Mehmet neden şemsiyesini açtı?","answer":"Yağmur başladığı için"}
+    ],
+    "story": [
+      {"id":"st1","title":"Küçük bir kaza","imageTerm":"minor car accident illustration","prompt":"Bu resimde neler oluyor? Olayı başından sonuna anlat."},
+      {"id":"st2","title":"Markette alışveriş","imageTerm":"shopping supermarket illustration","prompt":"Kişiler ne yapıyor? Önce, sonra ve sonunda ne olduğunu anlat."},
+      {"id":"st3","title":"Parkta bir gün","imageTerm":"children in park illustration","prompt":"Resimdeki kişileri ve yaptıkları eylemleri anlat."}
+    ]
+  }
+}
