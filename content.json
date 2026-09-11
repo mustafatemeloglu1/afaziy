@@ -1,0 +1,1676 @@
+{
+  "version": "3.0.0",
+  "updated": "2026-09-12",
+  "description": "Afazi Terapi - genişletilmiş DKT egzersiz paketi",
+  "modules": {
+    "word": [
+      {
+        "id": "w1",
+        "answer": "elma",
+        "category": "meyve",
+        "features": [
+          "yuvarlaktır",
+          "yenir",
+          "kırmızı veya yeşil olabilir",
+          "manavda bulunur"
+        ],
+        "image": "assets/apple.svg",
+        "cue": "Bu bir meyve."
+      },
+      {
+        "id": "w2",
+        "answer": "muz",
+        "category": "meyve",
+        "features": [
+          "uzundur",
+          "sarıdır",
+          "kabuğu soyulur",
+          "yenir"
+        ],
+        "image": "assets/banana.svg",
+        "cue": "Bu bir meyve."
+      },
+      {
+        "id": "w3",
+        "answer": "portakal",
+        "category": "meyve",
+        "features": [
+          "yuvarlaktır",
+          "turuncudur",
+          "kabuğu soyulur",
+          "sıkılıp suyu içilir"
+        ],
+        "image": "assets/orange.svg",
+        "cue": "Bu bir meyve."
+      },
+      {
+        "id": "w4",
+        "answer": "çilek",
+        "category": "meyve",
+        "features": [
+          "küçüktür",
+          "kırmızıdır",
+          "üzerinde çekirdekleri vardır",
+          "tatlıdır"
+        ],
+        "image": "assets/strawberry.svg",
+        "cue": "Bu bir meyve."
+      },
+      {
+        "id": "w5",
+        "answer": "bardak",
+        "category": "mutfak eşyası",
+        "features": [
+          "içmek için kullanılır",
+          "cam olabilir",
+          "masada bulunur",
+          "içine sıvı konur"
+        ],
+        "image": "assets/glass.svg",
+        "cue": "Bu bir mutfak eşyası."
+      },
+      {
+        "id": "w6",
+        "answer": "tabak",
+        "category": "mutfak eşyası",
+        "features": [
+          "yemek için kullanılır",
+          "yuvarlak olabilir",
+          "masada bulunur",
+          "üzerine yemek konur"
+        ],
+        "image": "assets/plate.svg",
+        "cue": "Bu bir mutfak eşyası."
+      },
+      {
+        "id": "w7",
+        "answer": "kaşık",
+        "category": "mutfak eşyası",
+        "features": [
+          "yemek için kullanılır",
+          "metal olabilir",
+          "çorba içilir",
+          "sapı vardır"
+        ],
+        "image": "assets/spoon.svg",
+        "cue": "Bu bir mutfak eşyası."
+      },
+      {
+        "id": "w8",
+        "answer": "çatal",
+        "category": "mutfak eşyası",
+        "features": [
+          "yemek için kullanılır",
+          "dişleri vardır",
+          "metal olabilir",
+          "sapı vardır"
+        ],
+        "image": "assets/fork.svg",
+        "cue": "Bu bir mutfak eşyası."
+      },
+      {
+        "id": "w9",
+        "answer": "tencere",
+        "category": "mutfak eşyası",
+        "features": [
+          "yemek pişirilir",
+          "metal olabilir",
+          "kapağı olabilir",
+          "ocakta kullanılır"
+        ],
+        "image": "assets/pot.svg",
+        "cue": "Bu bir mutfak eşyası."
+      },
+      {
+        "id": "w10",
+        "answer": "bıçak",
+        "category": "mutfak eşyası",
+        "features": [
+          "kesmek için kullanılır",
+          "keskindir",
+          "mutfakta bulunur",
+          "sapı vardır"
+        ],
+        "image": "assets/knife.svg",
+        "cue": "Bu bir mutfak eşyası."
+      },
+      {
+        "id": "w11",
+        "answer": "kitap",
+        "category": "okuma",
+        "features": [
+          "okunur",
+          "sayfaları vardır",
+          "bilgi verir",
+          "kütüphanede bulunabilir"
+        ],
+        "image": "assets/book.svg",
+        "cue": "Bu bir okuma."
+      },
+      {
+        "id": "w12",
+        "answer": "telefon",
+        "category": "elektronik",
+        "features": [
+          "arama yapılır",
+          "mesaj gönderilir",
+          "ekranı vardır",
+          "cepte taşınır"
+        ],
+        "image": "assets/phone.svg",
+        "cue": "Bu bir elektronik."
+      },
+      {
+        "id": "w13",
+        "answer": "anahtar",
+        "category": "ev eşyası",
+        "features": [
+          "kapıyı açar",
+          "metal olabilir",
+          "cebimizde taşırız",
+          "kilitle kullanılır"
+        ],
+        "image": "assets/key.svg",
+        "cue": "Bu bir ev eşyası."
+      },
+      {
+        "id": "w14",
+        "answer": "şemsiye",
+        "category": "günlük yaşam",
+        "features": [
+          "yağmurdan korur",
+          "açılıp kapanır",
+          "sapı vardır",
+          "dışarıda kullanılır"
+        ],
+        "image": "assets/umbrella.svg",
+        "cue": "Bu bir günlük yaşam."
+      },
+      {
+        "id": "w15",
+        "answer": "ayakkabı",
+        "category": "giyim",
+        "features": [
+          "ayağa giyilir",
+          "çifttir",
+          "dışarıda kullanılır",
+          "bağcıklı olabilir"
+        ],
+        "image": "assets/shoe.svg",
+        "cue": "Bu bir giyim."
+      },
+      {
+        "id": "w16",
+        "answer": "gömlek",
+        "category": "giyim",
+        "features": [
+          "giyilir",
+          "kolları vardır",
+          "düğmeleri olabilir",
+          "dolapta bulunur"
+        ],
+        "image": "assets/shirt.svg",
+        "cue": "Bu bir giyim."
+      },
+      {
+        "id": "w17",
+        "answer": "sandalye",
+        "category": "ev eşyası",
+        "features": [
+          "oturulur",
+          "sırtlığı olabilir",
+          "ayakları vardır",
+          "masa yanında bulunur"
+        ],
+        "image": "assets/chair.svg",
+        "cue": "Bu bir ev eşyası."
+      },
+      {
+        "id": "w18",
+        "answer": "masa",
+        "category": "ev eşyası",
+        "features": [
+          "üzerine eşya konur",
+          "ayakları vardır",
+          "yemek yenebilir",
+          "çalışma için kullanılır"
+        ],
+        "image": "assets/table.svg",
+        "cue": "Bu bir ev eşyası."
+      },
+      {
+        "id": "w19",
+        "answer": "yatak",
+        "category": "ev eşyası",
+        "features": [
+          "uyumak için kullanılır",
+          "yumuşaktır",
+          "yatak odasında bulunur",
+          "çarşaf serilir"
+        ],
+        "image": "assets/bed.svg",
+        "cue": "Bu bir ev eşyası."
+      },
+      {
+        "id": "w20",
+        "answer": "lamba",
+        "category": "ev eşyası",
+        "features": [
+          "ışık verir",
+          "elektrikle çalışabilir",
+          "masa üstünde olabilir",
+          "gece kullanılır"
+        ],
+        "image": "assets/lamp.svg",
+        "cue": "Bu bir ev eşyası."
+      },
+      {
+        "id": "w21",
+        "answer": "saat",
+        "category": "günlük yaşam",
+        "features": [
+          "zamanı gösterir",
+          "duvarda olabilir",
+          "kolumuza takabiliriz",
+          "akrep ve yelkovanı vardır"
+        ],
+        "image": "assets/clock.svg",
+        "cue": "Bu bir günlük yaşam."
+      },
+      {
+        "id": "w22",
+        "answer": "araba",
+        "category": "taşıt",
+        "features": [
+          "yolda gider",
+          "tekerlekleri vardır",
+          "direksiyonu vardır",
+          "insan taşır"
+        ],
+        "image": "assets/car.svg",
+        "cue": "Bu bir taşıt."
+      },
+      {
+        "id": "w23",
+        "answer": "otobüs",
+        "category": "taşıt",
+        "features": [
+          "çok kişi taşır",
+          "duraklarda durur",
+          "şoförü vardır",
+          "yolda gider"
+        ],
+        "image": "assets/bus.svg",
+        "cue": "Bu bir taşıt."
+      },
+      {
+        "id": "w24",
+        "answer": "bisiklet",
+        "category": "taşıt",
+        "features": [
+          "iki tekerleği vardır",
+          "pedalla sürülür",
+          "kasksız binmek risklidir",
+          "yolda kullanılır"
+        ],
+        "image": "assets/bicycle.svg",
+        "cue": "Bu bir taşıt."
+      },
+      {
+        "id": "w25",
+        "answer": "tren",
+        "category": "taşıt",
+        "features": [
+          "raylarda gider",
+          "vagonları vardır",
+          "istasyonda durur",
+          "çok kişi taşır"
+        ],
+        "image": "assets/train.svg",
+        "cue": "Bu bir taşıt."
+      },
+      {
+        "id": "w26",
+        "answer": "top",
+        "category": "oyuncak/spor",
+        "features": [
+          "yuvarlaktır",
+          "atılır",
+          "tutulur",
+          "spor yaparken kullanılır"
+        ],
+        "image": "assets/ball.svg",
+        "cue": "Bu bir oyuncak/spor."
+      },
+      {
+        "id": "w27",
+        "answer": "sepet",
+        "category": "ev eşyası",
+        "features": [
+          "eşya taşır",
+          "sapı olabilir",
+          "alışverişte kullanılır",
+          "içine eşya konur"
+        ],
+        "image": "assets/basket.svg",
+        "cue": "Bu bir ev eşyası."
+      },
+      {
+        "id": "w28",
+        "answer": "şişe",
+        "category": "mutfak eşyası",
+        "features": [
+          "içine sıvı konur",
+          "kapağı vardır",
+          "plastik veya cam olabilir",
+          "su taşınır"
+        ],
+        "image": "assets/bottle.svg",
+        "cue": "Bu bir mutfak eşyası."
+      },
+      {
+        "id": "w29",
+        "answer": "diş fırçası",
+        "category": "kişisel bakım",
+        "features": [
+          "diş temizler",
+          "banyoda bulunur",
+          "macunla kullanılır",
+          "sapı vardır"
+        ],
+        "image": "assets/toothbrush.svg",
+        "cue": "Bu bir kişisel bakım."
+      },
+      {
+        "id": "w30",
+        "answer": "tarak",
+        "category": "kişisel bakım",
+        "features": [
+          "saç tarar",
+          "dişleri vardır",
+          "banyoda bulunabilir",
+          "plastik olabilir"
+        ],
+        "image": "assets/comb.svg",
+        "cue": "Bu bir kişisel bakım."
+      },
+      {
+        "id": "w31",
+        "answer": "çanta",
+        "category": "günlük yaşam",
+        "features": [
+          "eşya taşır",
+          "sapı vardır",
+          "okula veya işe götürülür",
+          "fermuarı olabilir"
+        ],
+        "image": "assets/bag.svg",
+        "cue": "Bu bir günlük yaşam."
+      },
+      {
+        "id": "w32",
+        "answer": "şapka",
+        "category": "giyim",
+        "features": [
+          "başa takılır",
+          "güneşten koruyabilir",
+          "farklı renklerde olur",
+          "dışarıda kullanılır"
+        ],
+        "image": "assets/hat.svg",
+        "cue": "Bu bir giyim."
+      },
+      {
+        "id": "w33",
+        "answer": "balon",
+        "category": "oyuncak",
+        "features": [
+          "içi hava ile dolar",
+          "uçabilir",
+          "partilerde kullanılır",
+          "renkli olabilir"
+        ],
+        "image": "assets/balloon.svg",
+        "cue": "Bu bir oyuncak."
+      }
+    ],
+    "category": [
+      {
+        "id": "c1",
+        "title": "Meyveler",
+        "targetCount": 8,
+        "items": [
+          "elma",
+          "muz",
+          "portakal",
+          "çilek",
+          "armut",
+          "kiraz",
+          "üzüm",
+          "karpuz",
+          "şeftali",
+          "erik"
+        ],
+        "cue": "Meyveler kategorisinden 8 sözcük üret."
+      },
+      {
+        "id": "c2",
+        "title": "Mutfak eşyaları",
+        "targetCount": 8,
+        "items": [
+          "tabak",
+          "bardak",
+          "kaşık",
+          "çatal",
+          "tencere",
+          "bıçak",
+          "tepsi",
+          "tava",
+          "sürahi",
+          "kase"
+        ],
+        "cue": "Mutfak eşyaları kategorisinden 8 sözcük üret."
+      },
+      {
+        "id": "c3",
+        "title": "Giyim eşyaları",
+        "targetCount": 8,
+        "items": [
+          "gömlek",
+          "pantolon",
+          "ayakkabı",
+          "şapka",
+          "ceket",
+          "etek",
+          "çorap",
+          "kazak",
+          "eldiven",
+          "şal"
+        ],
+        "cue": "Giyim eşyaları kategorisinden 8 sözcük üret."
+      },
+      {
+        "id": "c4",
+        "title": "Taşıtlar",
+        "targetCount": 8,
+        "items": [
+          "araba",
+          "otobüs",
+          "bisiklet",
+          "tren",
+          "uçak",
+          "gemi",
+          "motosiklet",
+          "kamyon",
+          "taksi",
+          "metro"
+        ],
+        "cue": "Taşıtlar kategorisinden 8 sözcük üret."
+      },
+      {
+        "id": "c5",
+        "title": "Ev eşyaları",
+        "targetCount": 8,
+        "items": [
+          "sandalye",
+          "masa",
+          "yatak",
+          "lamba",
+          "dolap",
+          "koltuk",
+          "perde",
+          "halı",
+          "ayna",
+          "saat"
+        ],
+        "cue": "Ev eşyaları kategorisinden 8 sözcük üret."
+      },
+      {
+        "id": "c6",
+        "title": "Kişisel bakım",
+        "targetCount": 7,
+        "items": [
+          "diş fırçası",
+          "tarak",
+          "sabun",
+          "şampuan",
+          "havlu",
+          "tıraş makinesi",
+          "parfüm",
+          "krem"
+        ],
+        "cue": "Kişisel bakım kategorisinden 7 sözcük üret."
+      },
+      {
+        "id": "c7",
+        "title": "Okul/iş",
+        "targetCount": 7,
+        "items": [
+          "kitap",
+          "kalem",
+          "defter",
+          "silgi",
+          "makas",
+          "bilgisayar",
+          "telefon",
+          "dosya"
+        ],
+        "cue": "Okul/iş kategorisinden 7 sözcük üret."
+      },
+      {
+        "id": "c8",
+        "title": "Spor",
+        "targetCount": 7,
+        "items": [
+          "top",
+          "raket",
+          "forma",
+          "krampon",
+          "düdük",
+          "bisiklet",
+          "ip",
+          "mat"
+        ],
+        "cue": "Spor kategorisinden 7 sözcük üret."
+      },
+      {
+        "id": "c9",
+        "title": "Mutfak yiyecekleri",
+        "targetCount": 7,
+        "items": [
+          "ekmek",
+          "peynir",
+          "yumurta",
+          "domates",
+          "çorba",
+          "pilav",
+          "yoğurt",
+          "salata"
+        ],
+        "cue": "Mutfak yiyecekleri kategorisinden 7 sözcük üret."
+      },
+      {
+        "id": "c10",
+        "title": "Doğa",
+        "targetCount": 7,
+        "items": [
+          "ağaç",
+          "çiçek",
+          "güneş",
+          "bulut",
+          "yağmur",
+          "kar",
+          "deniz",
+          "dağ"
+        ],
+        "cue": "Doğa kategorisinden 7 sözcük üret."
+      }
+    ],
+    "picture": [
+      {
+        "id": "p1",
+        "answer": "elma",
+        "image": "assets/apple.svg",
+        "cue1": "Yuvarlaktır",
+        "cue2": "Yenir",
+        "cue3": "Kırmızı veya yeşil olabilir"
+      },
+      {
+        "id": "p2",
+        "answer": "muz",
+        "image": "assets/banana.svg",
+        "cue1": "Uzundur",
+        "cue2": "Sarıdır",
+        "cue3": "Kabuğu soyulur"
+      },
+      {
+        "id": "p3",
+        "answer": "portakal",
+        "image": "assets/orange.svg",
+        "cue1": "Yuvarlaktır",
+        "cue2": "Turuncudur",
+        "cue3": "Kabuğu soyulur"
+      },
+      {
+        "id": "p4",
+        "answer": "çilek",
+        "image": "assets/strawberry.svg",
+        "cue1": "Küçüktür",
+        "cue2": "Kırmızıdır",
+        "cue3": "Üzerinde çekirdekleri vardır"
+      },
+      {
+        "id": "p5",
+        "answer": "bardak",
+        "image": "assets/glass.svg",
+        "cue1": "Içmek için kullanılır",
+        "cue2": "Cam olabilir",
+        "cue3": "Masada bulunur"
+      },
+      {
+        "id": "p6",
+        "answer": "tabak",
+        "image": "assets/plate.svg",
+        "cue1": "Yemek için kullanılır",
+        "cue2": "Yuvarlak olabilir",
+        "cue3": "Masada bulunur"
+      },
+      {
+        "id": "p7",
+        "answer": "kaşık",
+        "image": "assets/spoon.svg",
+        "cue1": "Yemek için kullanılır",
+        "cue2": "Metal olabilir",
+        "cue3": "Çorba içilir"
+      },
+      {
+        "id": "p8",
+        "answer": "çatal",
+        "image": "assets/fork.svg",
+        "cue1": "Yemek için kullanılır",
+        "cue2": "Dişleri vardır",
+        "cue3": "Metal olabilir"
+      },
+      {
+        "id": "p9",
+        "answer": "tencere",
+        "image": "assets/pot.svg",
+        "cue1": "Yemek pişirilir",
+        "cue2": "Metal olabilir",
+        "cue3": "Kapağı olabilir"
+      },
+      {
+        "id": "p10",
+        "answer": "bıçak",
+        "image": "assets/knife.svg",
+        "cue1": "Kesmek için kullanılır",
+        "cue2": "Keskindir",
+        "cue3": "Mutfakta bulunur"
+      },
+      {
+        "id": "p11",
+        "answer": "kitap",
+        "image": "assets/book.svg",
+        "cue1": "Okunur",
+        "cue2": "Sayfaları vardır",
+        "cue3": "Bilgi verir"
+      },
+      {
+        "id": "p12",
+        "answer": "telefon",
+        "image": "assets/phone.svg",
+        "cue1": "Arama yapılır",
+        "cue2": "Mesaj gönderilir",
+        "cue3": "Ekranı vardır"
+      },
+      {
+        "id": "p13",
+        "answer": "anahtar",
+        "image": "assets/key.svg",
+        "cue1": "Kapıyı açar",
+        "cue2": "Metal olabilir",
+        "cue3": "Cebimizde taşırız"
+      },
+      {
+        "id": "p14",
+        "answer": "şemsiye",
+        "image": "assets/umbrella.svg",
+        "cue1": "Yağmurdan korur",
+        "cue2": "Açılıp kapanır",
+        "cue3": "Sapı vardır"
+      },
+      {
+        "id": "p15",
+        "answer": "ayakkabı",
+        "image": "assets/shoe.svg",
+        "cue1": "Ayağa giyilir",
+        "cue2": "Çifttir",
+        "cue3": "Dışarıda kullanılır"
+      },
+      {
+        "id": "p16",
+        "answer": "gömlek",
+        "image": "assets/shirt.svg",
+        "cue1": "Giyilir",
+        "cue2": "Kolları vardır",
+        "cue3": "Düğmeleri olabilir"
+      },
+      {
+        "id": "p17",
+        "answer": "sandalye",
+        "image": "assets/chair.svg",
+        "cue1": "Oturulur",
+        "cue2": "Sırtlığı olabilir",
+        "cue3": "Ayakları vardır"
+      },
+      {
+        "id": "p18",
+        "answer": "masa",
+        "image": "assets/table.svg",
+        "cue1": "Üzerine eşya konur",
+        "cue2": "Ayakları vardır",
+        "cue3": "Yemek yenebilir"
+      },
+      {
+        "id": "p19",
+        "answer": "yatak",
+        "image": "assets/bed.svg",
+        "cue1": "Uyumak için kullanılır",
+        "cue2": "Yumuşaktır",
+        "cue3": "Yatak odasında bulunur"
+      },
+      {
+        "id": "p20",
+        "answer": "lamba",
+        "image": "assets/lamp.svg",
+        "cue1": "Işık verir",
+        "cue2": "Elektrikle çalışabilir",
+        "cue3": "Masa üstünde olabilir"
+      },
+      {
+        "id": "p21",
+        "answer": "saat",
+        "image": "assets/clock.svg",
+        "cue1": "Zamanı gösterir",
+        "cue2": "Duvarda olabilir",
+        "cue3": "Kolumuza takabiliriz"
+      },
+      {
+        "id": "p22",
+        "answer": "araba",
+        "image": "assets/car.svg",
+        "cue1": "Yolda gider",
+        "cue2": "Tekerlekleri vardır",
+        "cue3": "Direksiyonu vardır"
+      },
+      {
+        "id": "p23",
+        "answer": "otobüs",
+        "image": "assets/bus.svg",
+        "cue1": "Çok kişi taşır",
+        "cue2": "Duraklarda durur",
+        "cue3": "Şoförü vardır"
+      },
+      {
+        "id": "p24",
+        "answer": "bisiklet",
+        "image": "assets/bicycle.svg",
+        "cue1": "Iki tekerleği vardır",
+        "cue2": "Pedalla sürülür",
+        "cue3": "Kasksız binmek risklidir"
+      },
+      {
+        "id": "p25",
+        "answer": "tren",
+        "image": "assets/train.svg",
+        "cue1": "Raylarda gider",
+        "cue2": "Vagonları vardır",
+        "cue3": "Istasyonda durur"
+      },
+      {
+        "id": "p26",
+        "answer": "top",
+        "image": "assets/ball.svg",
+        "cue1": "Yuvarlaktır",
+        "cue2": "Atılır",
+        "cue3": "Tutulur"
+      },
+      {
+        "id": "p27",
+        "answer": "sepet",
+        "image": "assets/basket.svg",
+        "cue1": "Eşya taşır",
+        "cue2": "Sapı olabilir",
+        "cue3": "Alışverişte kullanılır"
+      },
+      {
+        "id": "p28",
+        "answer": "şişe",
+        "image": "assets/bottle.svg",
+        "cue1": "Içine sıvı konur",
+        "cue2": "Kapağı vardır",
+        "cue3": "Plastik veya cam olabilir"
+      },
+      {
+        "id": "p29",
+        "answer": "diş fırçası",
+        "image": "assets/toothbrush.svg",
+        "cue1": "Diş temizler",
+        "cue2": "Banyoda bulunur",
+        "cue3": "Macunla kullanılır"
+      },
+      {
+        "id": "p30",
+        "answer": "tarak",
+        "image": "assets/comb.svg",
+        "cue1": "Saç tarar",
+        "cue2": "Dişleri vardır",
+        "cue3": "Banyoda bulunabilir"
+      },
+      {
+        "id": "p31",
+        "answer": "çanta",
+        "image": "assets/bag.svg",
+        "cue1": "Eşya taşır",
+        "cue2": "Sapı vardır",
+        "cue3": "Okula veya işe götürülür"
+      },
+      {
+        "id": "p32",
+        "answer": "şapka",
+        "image": "assets/hat.svg",
+        "cue1": "Başa takılır",
+        "cue2": "Güneşten koruyabilir",
+        "cue3": "Farklı renklerde olur"
+      },
+      {
+        "id": "p33",
+        "answer": "balon",
+        "image": "assets/balloon.svg",
+        "cue1": "Içi hava ile dolar",
+        "cue2": "Uçabilir",
+        "cue3": "Partilerde kullanılır"
+      }
+    ],
+    "action": [
+      {
+        "id": "a1",
+        "answer": "yemek yemek",
+        "sentence": "Çocuk yemek yiyor.",
+        "who": "çocuk",
+        "verb": "yiyor",
+        "object": "yemek",
+        "image": "assets/action-1.svg"
+      },
+      {
+        "id": "a2",
+        "answer": "içmek",
+        "sentence": "Kadın su içiyor.",
+        "who": "kadın",
+        "verb": "içiyor",
+        "object": "su",
+        "image": "assets/action-2.svg"
+      },
+      {
+        "id": "a3",
+        "answer": "kesmek",
+        "sentence": "Adam ekmeği kesiyor.",
+        "who": "adam",
+        "verb": "kesiyor",
+        "object": "ekmeği",
+        "image": "assets/action-3.svg"
+      },
+      {
+        "id": "a4",
+        "answer": "yazmak",
+        "sentence": "Öğrenci deftere yazıyor.",
+        "who": "öğrenci",
+        "verb": "yazıyor",
+        "object": "deftere",
+        "image": "assets/action-4.svg"
+      },
+      {
+        "id": "a5",
+        "answer": "okumak",
+        "sentence": "Kadın kitap okuyor.",
+        "who": "kadın",
+        "verb": "okuyor",
+        "object": "kitap",
+        "image": "assets/action-5.svg"
+      },
+      {
+        "id": "a6",
+        "answer": "koşmak",
+        "sentence": "Çocuk parkta koşuyor.",
+        "who": "çocuk",
+        "verb": "koşuyor",
+        "object": "parkta",
+        "image": "assets/action-6.svg"
+      },
+      {
+        "id": "a7",
+        "answer": "yürümek",
+        "sentence": "Adam sokakta yürüyor.",
+        "who": "adam",
+        "verb": "yürüyor",
+        "object": "sokakta",
+        "image": "assets/action-7.svg"
+      },
+      {
+        "id": "a8",
+        "answer": "uyumak",
+        "sentence": "Bebek yatakta uyuyor.",
+        "who": "bebek",
+        "verb": "uyuyor",
+        "object": "yatakta",
+        "image": "assets/action-8.svg"
+      },
+      {
+        "id": "a9",
+        "answer": "oturmak",
+        "sentence": "Adam sandalyede oturuyor.",
+        "who": "adam",
+        "verb": "oturuyor",
+        "object": "sandalyede",
+        "image": "assets/action-9.svg"
+      },
+      {
+        "id": "a10",
+        "answer": "kalkmak",
+        "sentence": "Kadın sandalyeden kalkıyor.",
+        "who": "kadın",
+        "verb": "kalkıyor",
+        "object": "sandalyeden",
+        "image": "assets/action-10.svg"
+      },
+      {
+        "id": "a11",
+        "answer": "açmak",
+        "sentence": "Çocuk kapıyı açıyor.",
+        "who": "çocuk",
+        "verb": "açıyor",
+        "object": "kapıyı",
+        "image": "assets/action-11.svg"
+      },
+      {
+        "id": "a12",
+        "answer": "kapatmak",
+        "sentence": "Adam pencereyi kapatıyor.",
+        "who": "adam",
+        "verb": "kapatıyor",
+        "object": "pencereyi",
+        "image": "assets/action-12.svg"
+      },
+      {
+        "id": "a13",
+        "answer": "almak",
+        "sentence": "Kadın çantayı alıyor.",
+        "who": "kadın",
+        "verb": "alıyor",
+        "object": "çantayı",
+        "image": "assets/action-13.svg"
+      },
+      {
+        "id": "a14",
+        "answer": "vermek",
+        "sentence": "Adam çocuğa top veriyor.",
+        "who": "adam",
+        "verb": "veriyor",
+        "object": "top",
+        "image": "assets/action-14.svg"
+      },
+      {
+        "id": "a15",
+        "answer": "taşımak",
+        "sentence": "Kadın çantayı taşıyor.",
+        "who": "kadın",
+        "verb": "taşıyor",
+        "object": "çantayı",
+        "image": "assets/action-15.svg"
+      },
+      {
+        "id": "a16",
+        "answer": "yıkamak",
+        "sentence": "Çocuk ellerini yıkıyor.",
+        "who": "çocuk",
+        "verb": "yıkıyor",
+        "object": "ellerini",
+        "image": "assets/action-16.svg"
+      },
+      {
+        "id": "a17",
+        "answer": "temizlemek",
+        "sentence": "Adam masayı temizliyor.",
+        "who": "adam",
+        "verb": "temizliyor",
+        "object": "masayı",
+        "image": "assets/action-17.svg"
+      },
+      {
+        "id": "a18",
+        "answer": "pişirmek",
+        "sentence": "Kadın yemek pişiriyor.",
+        "who": "kadın",
+        "verb": "pişiriyor",
+        "object": "yemeği",
+        "image": "assets/action-18.svg"
+      },
+      {
+        "id": "a19",
+        "answer": "sürmek",
+        "sentence": "Adam araba sürüyor.",
+        "who": "adam",
+        "verb": "sürüyor",
+        "object": "arabayı",
+        "image": "assets/action-19.svg"
+      },
+      {
+        "id": "a20",
+        "answer": "binmek",
+        "sentence": "Çocuk bisiklete biniyor.",
+        "who": "çocuk",
+        "verb": "biniyor",
+        "object": "bisiklete",
+        "image": "assets/action-20.svg"
+      },
+      {
+        "id": "a21",
+        "answer": "atmak",
+        "sentence": "Çocuk topu atıyor.",
+        "who": "çocuk",
+        "verb": "atıyor",
+        "object": "topu",
+        "image": "assets/action-21.svg"
+      },
+      {
+        "id": "a22",
+        "answer": "tutmak",
+        "sentence": "Kadın topu tutuyor.",
+        "who": "kadın",
+        "verb": "tutuyor",
+        "object": "topu",
+        "image": "assets/action-22.svg"
+      },
+      {
+        "id": "a23",
+        "answer": "giymek",
+        "sentence": "Adam ayakkabısını giyiyor.",
+        "who": "adam",
+        "verb": "giyiyor",
+        "object": "ayakkabısını",
+        "image": "assets/action-23.svg"
+      },
+      {
+        "id": "a24",
+        "answer": "çıkarmak",
+        "sentence": "Çocuk montunu çıkarıyor.",
+        "who": "çocuk",
+        "verb": "çıkarıyor",
+        "object": "montunu",
+        "image": "assets/action-24.svg"
+      },
+      {
+        "id": "a25",
+        "answer": "aramak",
+        "sentence": "Kadın telefonunu arıyor.",
+        "who": "kadın",
+        "verb": "arıyor",
+        "object": "telefonunu",
+        "image": "assets/action-25.svg"
+      },
+      {
+        "id": "a26",
+        "answer": "konuşmak",
+        "sentence": "Adam telefonda konuşuyor.",
+        "who": "adam",
+        "verb": "konuşuyor",
+        "object": "telefonda",
+        "image": "assets/action-26.svg"
+      },
+      {
+        "id": "a27",
+        "answer": "dinlemek",
+        "sentence": "Çocuk müzik dinliyor.",
+        "who": "çocuk",
+        "verb": "dinliyor",
+        "object": "müziği",
+        "image": "assets/action-27.svg"
+      },
+      {
+        "id": "a28",
+        "answer": "beklemek",
+        "sentence": "Kadın otobüsü bekliyor.",
+        "who": "kadın",
+        "verb": "bekliyor",
+        "object": "otobüsü",
+        "image": "assets/action-28.svg"
+      },
+      {
+        "id": "a29",
+        "answer": "gülmek",
+        "sentence": "Çocuk gülüyor.",
+        "who": "çocuk",
+        "verb": "gülüyor",
+        "object": "—",
+        "image": "assets/action-29.svg"
+      },
+      {
+        "id": "a30",
+        "answer": "ağlamak",
+        "sentence": "Bebek ağlıyor.",
+        "who": "bebek",
+        "verb": "ağlıyor",
+        "object": "—",
+        "image": "assets/action-30.svg"
+      },
+      {
+        "id": "a31",
+        "answer": "yardım etmek",
+        "sentence": "Adam yaşlı kadına yardım ediyor.",
+        "who": "adam",
+        "verb": "yardım ediyor",
+        "object": "kadına",
+        "image": "assets/action-31.svg"
+      }
+    ],
+    "sentence": [
+      {
+        "id": "s1",
+        "sentence": "Adam ekmek kesiyor.",
+        "who": "Adam",
+        "verb": "kesiyor",
+        "object": "ekmek"
+      },
+      {
+        "id": "s2",
+        "sentence": "Çocuk topu atıyor.",
+        "who": "Çocuk",
+        "verb": "atıyor",
+        "object": "topu"
+      },
+      {
+        "id": "s3",
+        "sentence": "Kadın çorba içiyor.",
+        "who": "Kadın",
+        "verb": "içiyor",
+        "object": "çorba"
+      },
+      {
+        "id": "s4",
+        "sentence": "Baba arabayı yıkıyor.",
+        "who": "Baba",
+        "verb": "yıkıyor",
+        "object": "arabayı"
+      },
+      {
+        "id": "s5",
+        "sentence": "Anne masayı siliyor.",
+        "who": "Anne",
+        "verb": "siliyor",
+        "object": "masayı"
+      },
+      {
+        "id": "s6",
+        "sentence": "Çocuk kitabı okuyor.",
+        "who": "Çocuk",
+        "verb": "okuyor",
+        "object": "kitabı"
+      },
+      {
+        "id": "s7",
+        "sentence": "Kedi süt içiyor.",
+        "who": "Kedi",
+        "verb": "içiyor",
+        "object": "süt"
+      },
+      {
+        "id": "s8",
+        "sentence": "Adam kapıyı açıyor.",
+        "who": "Adam",
+        "verb": "açıyor",
+        "object": "kapıyı"
+      },
+      {
+        "id": "s9",
+        "sentence": "Kadın çantayı taşıyor.",
+        "who": "Kadın",
+        "verb": "taşıyor",
+        "object": "çantayı"
+      },
+      {
+        "id": "s10",
+        "sentence": "Öğretmen tahtaya yazıyor.",
+        "who": "Öğretmen",
+        "verb": "yazıyor",
+        "object": "tahtaya"
+      },
+      {
+        "id": "s11",
+        "sentence": "Çocuk bisiklete biniyor.",
+        "who": "Çocuk",
+        "verb": "biniyor",
+        "object": "bisiklete"
+      },
+      {
+        "id": "s12",
+        "sentence": "Adam sandalyeye oturuyor.",
+        "who": "Adam",
+        "verb": "oturuyor",
+        "object": "sandalyeye"
+      },
+      {
+        "id": "s13",
+        "sentence": "Kadın perdeyi açıyor.",
+        "who": "Kadın",
+        "verb": "açıyor",
+        "object": "perdeyi"
+      },
+      {
+        "id": "s14",
+        "sentence": "Bebek yatakta uyuyor.",
+        "who": "Bebek",
+        "verb": "uyuyor",
+        "object": "yatakta"
+      },
+      {
+        "id": "s15",
+        "sentence": "Çocuk ellerini yıkıyor.",
+        "who": "Çocuk",
+        "verb": "yıkıyor",
+        "object": "ellerini"
+      },
+      {
+        "id": "s16",
+        "sentence": "Adam telefonu kullanıyor.",
+        "who": "Adam",
+        "verb": "kullanıyor",
+        "object": "telefonu"
+      },
+      {
+        "id": "s17",
+        "sentence": "Kadın elma yiyor.",
+        "who": "Kadın",
+        "verb": "yiyor",
+        "object": "elmayı"
+      },
+      {
+        "id": "s18",
+        "sentence": "Çocuk çiçeği suluyor.",
+        "who": "Çocuk",
+        "verb": "suluyor",
+        "object": "çiçeği"
+      },
+      {
+        "id": "s19",
+        "sentence": "Baba gazeteyi okuyor.",
+        "who": "Baba",
+        "verb": "okuyor",
+        "object": "gazeteyi"
+      },
+      {
+        "id": "s20",
+        "sentence": "Anne alışveriş yapıyor.",
+        "who": "Anne",
+        "verb": "yapıyor",
+        "object": "alışveriş"
+      },
+      {
+        "id": "s21",
+        "sentence": "Adam otobüsü bekliyor.",
+        "who": "Adam",
+        "verb": "bekliyor",
+        "object": "otobüsü"
+      },
+      {
+        "id": "s22",
+        "sentence": "Çocuk montunu giyiyor.",
+        "who": "Çocuk",
+        "verb": "giyiyor",
+        "object": "montunu"
+      },
+      {
+        "id": "s23",
+        "sentence": "Kadın ışığı kapatıyor.",
+        "who": "Kadın",
+        "verb": "kapatıyor",
+        "object": "ışığı"
+      },
+      {
+        "id": "s24",
+        "sentence": "Adam çocuğa yardım ediyor.",
+        "who": "Adam",
+        "verb": "yardım ediyor",
+        "object": "çocuğa"
+      },
+      {
+        "id": "s25",
+        "sentence": "Çocuk oyuncağını topluyor.",
+        "who": "Çocuk",
+        "verb": "topluyor",
+        "object": "oyuncağını"
+      }
+    ],
+    "auditory": [
+      {
+        "id": "au1",
+        "command": "Kalemi göster.",
+        "level": 1
+      },
+      {
+        "id": "au2",
+        "command": "Bardağı göster.",
+        "level": 1
+      },
+      {
+        "id": "au3",
+        "command": "Kitabı al.",
+        "level": 1
+      },
+      {
+        "id": "au4",
+        "command": "Masaya dokun.",
+        "level": 1
+      },
+      {
+        "id": "au5",
+        "command": "Telefonu göster.",
+        "level": 1
+      },
+      {
+        "id": "au6",
+        "command": "Kapıyı göster.",
+        "level": 1
+      },
+      {
+        "id": "au7",
+        "command": "Ayağa kalk.",
+        "level": 1
+      },
+      {
+        "id": "au8",
+        "command": "Otur.",
+        "level": 1
+      },
+      {
+        "id": "au9",
+        "command": "Elini kaldır.",
+        "level": 1
+      },
+      {
+        "id": "au10",
+        "command": "Gözlerini kapat.",
+        "level": 1
+      },
+      {
+        "id": "au11",
+        "command": "Kalemi al ve masaya koy.",
+        "level": 2
+      },
+      {
+        "id": "au12",
+        "command": "Kitabı aç ve bana göster.",
+        "level": 2
+      },
+      {
+        "id": "au13",
+        "command": "Bardağı al ve masanın üzerine koy.",
+        "level": 2
+      },
+      {
+        "id": "au14",
+        "command": "Kapıya git ve sonra geri dön.",
+        "level": 2
+      },
+      {
+        "id": "au15",
+        "command": "Ayağa kalk ve elini kaldır.",
+        "level": 2
+      },
+      {
+        "id": "au16",
+        "command": "Telefonu al ve çantanın içine koy.",
+        "level": 2
+      },
+      {
+        "id": "au17",
+        "command": "Sandalyeye otur ve masayı göster.",
+        "level": 2
+      },
+      {
+        "id": "au18",
+        "command": "Kitabı al ve sayfayı çevir.",
+        "level": 2
+      },
+      {
+        "id": "au19",
+        "command": "Kalemi al, masaya koy ve sonra otur.",
+        "level": 3
+      },
+      {
+        "id": "au20",
+        "command": "Bardağı al, masaya koy ve telefonu göster.",
+        "level": 3
+      },
+      {
+        "id": "au21",
+        "command": "Ayağa kalk, kapıyı göster ve sonra otur.",
+        "level": 3
+      },
+      {
+        "id": "au22",
+        "command": "Kitabı aç, bir sayfa çevir ve kapat.",
+        "level": 3
+      },
+      {
+        "id": "au23",
+        "command": "Çantayı al, sandalyenin yanına koy ve otur.",
+        "level": 3
+      },
+      {
+        "id": "au24",
+        "command": "Telefonu göster, sonra masaya koy ve elini kaldır.",
+        "level": 3
+      }
+    ],
+    "reading": [
+      {
+        "id": "r1",
+        "text": "Ali markete gitti. Ekmek ve süt aldı. Sonra eve döndü.",
+        "question": "Ali nereye gitti?",
+        "answer": "Markete"
+      },
+      {
+        "id": "r2",
+        "text": "Ali markete gitti. Ekmek ve süt aldı. Sonra eve döndü.",
+        "question": "Ali ne aldı?",
+        "answer": "Ekmek ve süt"
+      },
+      {
+        "id": "r3",
+        "text": "Ayşe sabah kahvaltı yaptı. Sonra işe gitti.",
+        "question": "Ayşe önce ne yaptı?",
+        "answer": "Kahvaltı yaptı"
+      },
+      {
+        "id": "r4",
+        "text": "Ayşe sabah kahvaltı yaptı. Sonra işe gitti.",
+        "question": "Ayşe sonra nereye gitti?",
+        "answer": "İşe"
+      },
+      {
+        "id": "r5",
+        "text": "Mehmet yağmur başlayınca şemsiyesini açtı. Eve yürüyerek döndü.",
+        "question": "Mehmet neden şemsiye açtı?",
+        "answer": "Yağmur başladığı için"
+      },
+      {
+        "id": "r6",
+        "text": "Mehmet yağmur başlayınca şemsiyesini açtı. Eve yürüyerek döndü.",
+        "question": "Mehmet eve nasıl döndü?",
+        "answer": "Yürüyerek"
+      },
+      {
+        "id": "r7",
+        "text": "Zeynep otobüsü kaçırdı. Bir sonraki otobüsü bekledi.",
+        "question": "Zeynep neyi kaçırdı?",
+        "answer": "Otobüsü"
+      },
+      {
+        "id": "r8",
+        "text": "Zeynep otobüsü kaçırdı. Bir sonraki otobüsü bekledi.",
+        "question": "Zeynep ne yaptı?",
+        "answer": "Bir sonraki otobüsü bekledi"
+      },
+      {
+        "id": "r9",
+        "text": "Can parka gitti. Topuyla oynadı ve arkadaşlarıyla konuştu.",
+        "question": "Can nerede oynadı?",
+        "answer": "Parkta"
+      },
+      {
+        "id": "r10",
+        "text": "Can parka gitti. Topuyla oynadı ve arkadaşlarıyla konuştu.",
+        "question": "Can neyle oynadı?",
+        "answer": "Topuyla"
+      },
+      {
+        "id": "r11",
+        "text": "Elif evde çorba yaptı. Çorbayı ailesiyle birlikte içti.",
+        "question": "Elif ne yaptı?",
+        "answer": "Çorba yaptı"
+      },
+      {
+        "id": "r12",
+        "text": "Elif evde çorba yaptı. Çorbayı ailesiyle birlikte içti.",
+        "question": "Elif çorbayı kiminle içti?",
+        "answer": "Ailesiyle"
+      },
+      {
+        "id": "r13",
+        "text": "Mert sabah erken kalktı. Dişlerini fırçaladı ve okula gitti.",
+        "question": "Mert ilk ne yaptı?",
+        "answer": "Kalktı"
+      },
+      {
+        "id": "r14",
+        "text": "Mert sabah erken kalktı. Dişlerini fırçaladı ve okula gitti.",
+        "question": "Mert okula gitmeden önce ne yaptı?",
+        "answer": "Dişlerini fırçaladı"
+      },
+      {
+        "id": "r15",
+        "text": "Seda telefonunu masada unuttu. Akşam eve dönünce telefonu aldı.",
+        "question": "Seda telefonunu nerede unuttu?",
+        "answer": "Masada"
+      },
+      {
+        "id": "r16",
+        "text": "Seda ne zaman telefonu aldı?",
+        "question": "Akşam eve dönünce",
+        "answer": "Akşam eve dönünce"
+      },
+      {
+        "id": "r17",
+        "text": "Kerem alışveriş listesini hazırladı. Markette listedeki ürünleri aldı.",
+        "question": "Kerem ne hazırladı?",
+        "answer": "Alışveriş listesi"
+      },
+      {
+        "id": "r18",
+        "text": "Kerem ürünleri nerede aldı?",
+        "question": "Markette",
+        "answer": "Markette"
+      },
+      {
+        "id": "r19",
+        "text": "Nermin kitabını bitirdi. Sonra kitabı rafa koydu.",
+        "question": "Nermin neyi bitirdi?",
+        "answer": "Kitabını"
+      },
+      {
+        "id": "r20",
+        "text": "Nermin kitabı nereye koydu?",
+        "question": "Rafa",
+        "answer": "Rafa"
+      },
+      {
+        "id": "r21",
+        "text": "Okan kahvesini yaptı ve bilgisayarının başına oturdu. Bir saat çalıştı.",
+        "question": "Okan ne yaptı?",
+        "answer": "Kahvesini yaptı"
+      },
+      {
+        "id": "r22",
+        "text": "Okan ne kadar çalıştı?",
+        "question": "Bir saat",
+        "answer": "Bir saat"
+      },
+      {
+        "id": "r23",
+        "text": "Derya çiçekleri suladı. Daha sonra pencereyi açtı.",
+        "question": "Derya önce ne yaptı?",
+        "answer": "Çiçekleri suladı"
+      },
+      {
+        "id": "r24",
+        "text": "Derya sonra ne yaptı?",
+        "question": "Pencereyi açtı",
+        "answer": "Pencereyi açtı"
+      }
+    ],
+    "story": [
+      {
+        "id": "st1",
+        "title": "Kahvaltı hazırlama",
+        "image": "assets/story-1.svg",
+        "prompt": "Sabah mutfakta bir kişi var. Kahvaltı hazırlarken neler oluyor? Önce, sonra ve sonunda anlat."
+      },
+      {
+        "id": "st2",
+        "title": "Markette alışveriş",
+        "image": "assets/story-2.svg",
+        "prompt": "Markette alışveriş yapan kişiyi anlat. Neyi seçiyor, neyi sepete koyuyor, sonunda ne yapıyor?"
+      },
+      {
+        "id": "st3",
+        "title": "Yağmurlu gün",
+        "image": "assets/story-3.svg",
+        "prompt": "Dışarıda yağmur başladı. Kişinin başına neler geliyor? Olayı sırayla anlat."
+      },
+      {
+        "id": "st4",
+        "title": "Otobüs beklemek",
+        "image": "assets/story-4.svg",
+        "prompt": "Bir kişi durakta otobüs bekliyor. Önce, beklerken ve otobüs gelince ne oluyor?"
+      },
+      {
+        "id": "st5",
+        "title": "Bisiklete binmek",
+        "image": "assets/story-5.svg",
+        "prompt": "Bisiklete binen bir kişiyi anlat. Hazırlık, hareket ve bitiş aşamalarını kullan."
+      },
+      {
+        "id": "st6",
+        "title": "Top oyunu",
+        "image": "assets/story-6.svg",
+        "prompt": "Parkta top oynayan çocukları anlat. Kim ne yapıyor? Sonra ne oluyor?"
+      },
+      {
+        "id": "st7",
+        "title": "Telefon görüşmesi",
+        "image": "assets/story-7.svg",
+        "prompt": "Telefonla konuşan kişiyi anlat. Kim arıyor, neden arıyor, görüşme nasıl bitiyor?"
+      },
+      {
+        "id": "st8",
+        "title": "Evde temizlik",
+        "image": "assets/story-8.svg",
+        "prompt": "Evde temizlik yapan kişiyi anlat. Hangi eşyalarla ne yapıyor?"
+      },
+      {
+        "id": "st9",
+        "title": "Yolculuk",
+        "image": "assets/story-9.svg",
+        "prompt": "Arabaya binen kişinin yolculuğunu anlat. Başlangıç, yolculuk ve varış bölümlerini kullan."
+      },
+      {
+        "id": "st10",
+        "title": "Kitap okuma",
+        "image": "assets/story-10.svg",
+        "prompt": "Kitap okuyan kişiyi anlat. Nerede, ne zaman ve ne yaptığını söyle."
+      },
+      {
+        "id": "st11",
+        "title": "Uyku zamanı",
+        "image": "assets/story-11.svg",
+        "prompt": "Uyumaya hazırlanan bir kişiyi anlat. Hazırlık ve uykuya geçiş sırasını anlat."
+      },
+      {
+        "id": "st12",
+        "title": "Diş fırçalama",
+        "image": "assets/story-12.svg",
+        "prompt": "Dişlerini fırçalayan kişiyi anlat. Önce, sırasında ve sonrasında ne oluyor?"
+      }
+    ]
+  }
+}

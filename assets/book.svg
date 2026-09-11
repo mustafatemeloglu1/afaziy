@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 560">
+<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#F5E1FF"/><stop offset="1" stop-color="#FFFFFF"/></linearGradient></defs>
+<rect width="800" height="560" rx="44" fill="url(#g)"/>
+<circle cx="80" cy="75" r="22" fill="#FFFFFF" opacity=".8"/><circle cx="720" cy="90" r="30" fill="#FFFFFF" opacity=".65"/>
+<path d="M250 180 Q330 155 400 205 V405 Q325 365 250 390 Z" fill="#4F83E1" stroke="#2E6BE6" stroke-width="10"/><path d="M400 205 Q470 155 550 180 V390 Q475 365 400 405 Z" fill="#75A6F0" stroke="#2E6BE6" stroke-width="10"/><path d="M285 230 Q340 215 370 240 M430 240 Q470 215 520 230" stroke="#FFFFFF" stroke-width="10" fill="none"/>
+<rect x="38" y="465" width="724" height="58" rx="20" fill="#FFFFFF" opacity=".88"/>
+<text x="400" y="502" text-anchor="middle" font-family="Arial, sans-serif" font-size="28" font-weight="700" fill="#24364B">Kitap</text>
+</svg>

@@ -1,0 +1,9 @@
+{
+  "name": "Afazi Terapi",
+  "short_name": "Afazi Terapi",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#f7f8ff",
+  "theme_color": "#5b5fef",
+  "lang": "tr"
+}
